@@ -1,0 +1,10 @@
+/dist
+node_modules
+public
+*.log
+.idea
+.DS_Store
+.vscode
+**/*/.DS_Store
+/typings
+typings.json

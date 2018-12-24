@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "module": "es6",
+    "jsx": "preserve",
+    "removeComments": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "target": "ES5",
+    "moduleResolution": "node",
+    "lib": ["dom", "es2017", "scripthost", "es2015.promise"],
+    "typeRoots": ["types/", "node_modules/@types/", "lib/**/*", "packages/**/*"],
+    "baseUrl": ".",
+    "paths": {
+      "@root/*": ["*"],
+      "@packages/*": ["packages/*"],
+      "@lib/*": ["lib/*"]
+    }
+  },
+  "include": ["lib/**/*", "packages/**/*"],
+  "exclude": ["assets/", "node_modules"]
+}

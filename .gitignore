@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+dist/
+yarn-error.log
+typing/
+typings.json
+*/**/.DS_Store
+.vscode
