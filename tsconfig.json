@@ -2,7 +2,7 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
-    "allowJs": true,
+    "allowJs": false,
     "module": "es6",
     "jsx": "preserve",
     "removeComments": true,
@@ -10,6 +10,9 @@
     "noImplicitAny": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "declaration": true,
+    "declarationDir": "poc/pkg/types",
+    "outDir": "dist",
     "target": "ES5",
     "moduleResolution": "node",
     "lib": ["dom", "es2017", "scripthost", "es2015.promise"],
